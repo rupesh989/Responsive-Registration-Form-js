@@ -61,3 +61,40 @@ input[type="button"]{
     cursor: pointer;
     transition: .4s;
 }
+input[type="button"]:hover{
+    background-color: #10449a;
+}
+
+.links{
+    display: flex;
+    justify-content: center;
+}
+
+.links a img{
+    max-height: 40px;
+    margin-inline: 10px;
+}
+.signup{
+    text-align: center;
+    margin-block: 20px;
+}
+
+.signup a{
+    font-size: 16px;
+    font-weight: 700;
+    color: #5851e3;
+}
+
+.signup a:hover{
+    color: #10449a;
+    text-decoration: underline 2px;
+    text-underline-offset: 3.5px;
+}
+
+/* CSS to achieve responsiveness */
+@media screen and (max-width:700px) {
+    .form-box{
+        width: 100%;
+    }
+}
+
